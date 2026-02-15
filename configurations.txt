@@ -1,0 +1,18 @@
+1. ctrl + ` to open terminal
+
+2. assuming npm is our main project folder
+
+3. install npm globally by typing in the terminal:
+  npm i nodemon -g
+  cd npm (or where index.js file is located)
+  nodemon index.js
+  Ctrl+C (exit)
+
+  npm init
+  (input info)
+  info: after it, it will auto generate package.json from the info inputted then this file 
+  package.json is important because this is what npm reads to know what packages to install for your project
+
+4. npm i date-fns
+
+
