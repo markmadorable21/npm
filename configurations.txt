@@ -39,7 +39,10 @@
 10. starting the project
   npm run dev
   (in index.js, we have lines to display date and time, verify if present in the terminal since it was console.log)
-  
+
+11. installing new dependency uuid
+  npm i uuid
+
 
 
 
