@@ -13,6 +13,15 @@
   info: after it, it will auto generate package.json from the info inputted then this file 
   package.json is important because this is what npm reads to know what packages to install for your project
 
-4. npm i date-fns
+4. npm i date-fns (adding dependency)
+
+5. git init
+
+5. add .gitignore file then add node_modules
+
+6. npm install (going to read to package.json and install the node_modules)
+
+7. edited index.js
+
 
 
