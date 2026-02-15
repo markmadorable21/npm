@@ -13,7 +13,7 @@
   info: after it, it will auto generate package.json from the info inputted then this file 
   package.json is important because this is what npm reads to know what packages to install for your project
 
-4. npm i date-fns (adding dependency)
+4. npm i date-fns (adding/installing dependency, see package.json to verify)
 
 5. git init
 
@@ -21,7 +21,25 @@
 
 6. npm install (going to read to package.json and install the node_modules)
 
-7. edited index.js
+7. edited index.js 
+
+8. npm i nodemon -D (installing dev dependency and save it as dev dependency)
+   other way: npm i nodemon --save-dev 
+   (see package.json to verify)
+
+9. scripts (
+  use to run applications,
+  this will be used by the server for hosting)
+  in package.json add this in scripts:
+    "start": "node index", (index is where we wanna run our project)
+    delete test
+    add "dev": "nodemon index"
+    save
+
+10. starting the project
+  npm run dev
+  (in index.js, we have lines to display date and time, verify if present in the terminal since it was console.log)
+  
 
 
 
